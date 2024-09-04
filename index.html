@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Contact form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Karla">
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <form class="form" >
+<div class="row">
+        <div class="box">
+          <label for=""> First Name*</label>
+          <input id="fname" type="text" placeholder="First Name" required />
+        </div>
+
+        <div class="box">
+          <label for=""> Last Name*</label>
+          <input id="lname" type="text" placeholder="Last Name" required />
+        </div>
+      </div>
+        <div class="box">
+          <label for=""> Email*</label>
+          <input id="email" type="email" placeholder="Email" required />
+        </div>
+
+        <div class="box">
+          <label for=""> Query Type*</label>
+
+          <div class="row">
+          <span class="query">
+            <input type="radio" placeholder="Email" required /><label for=""
+              >General Enquiry</label
+            ></span
+          >
+          <span class="query">
+            <input type="radio" placeholder="Email" required /><label for=""
+              >Support Request</label
+            ></span
+          >
+        </div>
+      </div>
+
+        <div class="box">
+          <label for=""> Message*</label>
+         <textarea name="" id="textbox" required></textarea>
+        </div>
+        <span> <input type="checkbox" id="check-btn"> I consent to this form </span>
+<div class="btn"><button type="submit">Submit</button></div>
+      </form>
+    </div>
+
+  
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Developer Noah</a>.
+    </div>
+
+   
+
+    <script src="app.js"></script>
+  </body>
+</html>
